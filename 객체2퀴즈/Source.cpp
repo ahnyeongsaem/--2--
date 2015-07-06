@@ -54,7 +54,7 @@ void display(Student st) //등수를 보여지는 부분이 조회와 전체에�
 	cout << "석자 :" << ct << endl;
 	cout << "다음화면으로 가려면 아무키나 누르세요!" << endl;
 	cout.clear();
-	getchar();
+	getchar(); //adsfasdfasdfa
 	if (getchart==true) //연속 다음키를 누르세요 방지
 		getchar();
 	getchart = false;
