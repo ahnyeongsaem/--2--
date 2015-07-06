@@ -175,15 +175,12 @@ int main()
 			cout.clear();
 			getchar();
 			getchar();
-			//ddsfdsfjkjkjknjhjhjkjk
-
+			//ddsfdsfjkjkjknjhjh
 		}
 		else if (select == 0)
 		{
 			exit(1);
 		}
-		///kjkjkjkjk
-
 	}
 
 	return 0;
