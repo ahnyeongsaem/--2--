@@ -35,7 +35,6 @@ vector<Student> arr; //student 값전역배열
 
 bool getchart = true; //다음키를 누르세요 중복방지
 
-
 void display(Student st) //등수를 보여지는 부분이 조회와 전체에서 사용되므로 함수를 만듬
 {
 	cout << "-------------------" << endl;
