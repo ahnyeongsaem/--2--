@@ -4,9 +4,9 @@
 
 using namespace std;
 
-//12111543 ì•ˆì˜ìƒ˜ã…‡ã…‡
+//12111543 ¾È¿µ»ù
 class Student
-{ //í´ë˜ìŠ¤ ìŠ¤íŠœë˜íŠ¸
+{ //Å¬·¡½º ½ºÆ©´øÆ®
 public:
 	int mid;
 	int last;
@@ -18,7 +18,7 @@ public:
 };
 //asdfasdf
 //asdfasdfasdfasdafsfsadf
-vector<Student> arr; //student ê°’ì „ì—­ë°°ì—´
+vector<Student> arr; //student °ªÀü¿ª¹è¿­
 
 ///
 //
@@ -33,30 +33,30 @@ vector<Student> arr; //student ê°’ì „ì—­ë°°ì—´
 //
 
 
-bool getchart = true; //ë‹¤ìŒí‚¤ë¥¼ ëˆ„ë¥´ì„¸ìš” ì¤‘ë³µë°©ì§€
+bool getchart = true; //´ÙÀ½Å°¸¦ ´©¸£¼¼¿ä Áßº¹¹æÁö
 
 
-void display(Student st) //ë“±ìˆ˜ë¥¼ ë³´ì—¬ì§€ëŠ” ë¶€ë¶„ì´ ì¡°íšŒì™€ ì „ì²´ì—ì„œ ì‚¬ìš©ë˜ë¯€ë¡œ í•¨ìˆ˜ë¥¼ ë§Œë“¬
+void display(Student st) //µî¼ö¸¦ º¸¿©Áö´Â ºÎºĞÀÌ Á¶È¸¿Í ÀüÃ¼¿¡¼­ »ç¿ëµÇ¹Ç·Î ÇÔ¼ö¸¦ ¸¸µë
 {
 	cout << "-------------------" << endl;
-	cout << "ì´ë¦„ : " << st.name << endl;
-	cout << "ì¤‘ê°„ê³ ì‚¬ : " << st.mid << endl;
-	cout << "ê¸°ë§ê³ ì‚¬ : " << st.last << endl;
-	cout << "í€´ì¦ˆì ìˆ˜ : " << st.quiz << endl;
-	cout << "ì¶œì„ì ìˆ˜ : " << st.chu << endl;
-	cout << "ì´ì  : " << st.total << endl;
-	cout << "í•™ì  : " << st.hackjum << endl;
+	cout << "ÀÌ¸§ : " << st.name << endl;
+	cout << "Áß°£°í»ç : " << st.mid << endl;
+	cout << "±â¸»°í»ç : " << st.last << endl;
+	cout << "ÄûÁîÁ¡¼ö : " << st.quiz << endl;
+	cout << "Ãâ¼®Á¡¼ö : " << st.chu << endl;
+	cout << "ÃÑÁ¡ : " << st.total << endl;
+	cout << "ÇĞÁ¡ : " << st.hackjum << endl;
 	int ct = 1;
-	for (int i = 0; i < arr.size(); i++) //ë“±ìˆ˜
+	for (int i = 0; i < arr.size(); i++) //µî¼ö
 	{
 		if (arr[i].total > st.total)
 			ct++;
 	}
-	cout << "ì„ì :" << ct << endl;
-	cout << "ë‹¤ìŒí™”ë©´ìœ¼ë¡œ ê°€ë ¤ë©´ ì•„ë¬´í‚¤ë‚˜ ëˆ„ë¥´ì„¸ìš”!" << endl;
+	cout << "¼®ÀÚ :" << ct << endl;
+	cout << "´ÙÀ½È­¸éÀ¸·Î °¡·Á¸é ¾Æ¹«Å°³ª ´©¸£¼¼¿ä!" << endl;
 	cout.clear();
 	getchar();
-	if (getchart==true) //ì—°ì† ë‹¤ìŒí‚¤ë¥¼ ëˆ„ë¥´ì„¸ìš” ë°©ì§€
+	if (getchart==true) //¿¬¼Ó ´ÙÀ½Å°¸¦ ´©¸£¼¼¿ä ¹æÁö
 		getchar();
 	getchart = false;
 }
@@ -68,31 +68,31 @@ int main()
 	{
 		system("cls");
 		cout << "---------------------" << endl;
-		cout << "1. í•™ìƒìë£Œ ë“±ë¡" << endl;
-		cout << "2. ì¡°íšŒ" << endl;
-		cout << "3. ì‚­ì œ" << endl;
-		cout << "4. ì „ì²´ì¶œë ¥" << endl;
-		cout << "5. ì„ì°¨ë³„ì¶œë ¥" << endl;
-		cout << "0. ì¢…ë£Œ" << endl;
+		cout << "1. ÇĞ»ıÀÚ·á µî·Ï" << endl;
+		cout << "2. Á¶È¸" << endl;
+		cout << "3. »èÁ¦" << endl;
+		cout << "4. ÀüÃ¼Ãâ·Â" << endl;
+		cout << "5. ¼®Â÷º°Ãâ·Â" << endl;
+		cout << "0. Á¾·á" << endl;
 		cout << "---------------------" << endl;
 
 		int select;
-		cout << "ì…ë ¥:" << endl;
+		cout << "ÀÔ·Â:" << endl;
 		cin >> select;
-		getchart = true; //ì—°ì†í‚¤ í—ˆìš© 
+		getchart = true; //¿¬¼ÓÅ° Çã¿ë 
 		if (select == 1)
 		{
 			Student tmp;
 			
-			cout << "ì´ë¦„ :";
+			cout << "ÀÌ¸§ :";
 			cin >> tmp.name;
-			cout << "ì¤‘ê°„ê³ ì‚¬:";
+			cout << "Áß°£°í»ç:";
 			cin >> tmp.mid;
-			cout << "ê¸°ë§ê³ ì‚¬:";
+			cout << "±â¸»°í»ç:";
 			cin >> tmp.last;
-			cout << "í€´ì¦ˆì ìˆ˜:";
+			cout << "ÄûÁîÁ¡¼ö:";
 			cin >> tmp.quiz;
-			cout << "ì¶œì„ì ìˆ˜:";
+			cout << "Ãâ¼®Á¡¼ö:";
 			cin >> tmp.chu;
 			cout << endl;
 			
@@ -113,9 +113,9 @@ int main()
 		else if (select == 2)
 		{
 			string sttmp;
-			cout << "ì°¾ëŠ” ì´ë¦„ ì…ë ¥:";
+			cout << "Ã£´Â ÀÌ¸§ ÀÔ·Â:";
 			cin >> sttmp;
-			for (int i = 0; i < arr.size(); i++) //ì¡°íšŒ
+			for (int i = 0; i < arr.size(); i++) //Á¶È¸
 			{
 				if (sttmp == arr[i].name)
 				{
@@ -127,17 +127,17 @@ int main()
 		else if (select == 3)
 		{
 			string sttmp;
-			cout << "ì§€ìš¸ ì´ë¦„ ì…ë ¥:";
+			cout << "Áö¿ï ÀÌ¸§ ÀÔ·Â:";
 			cin >> sttmp;
 			for (int i = 0; i < arr.size(); i++)
 			{
 				if (sttmp == arr[i].name)
-				{ //ì´ë¦„ì´ ê°™ì€ì§€ í™•ì¸
+				{ //ÀÌ¸§ÀÌ °°ÀºÁö È®ÀÎ
 					for (int j = i; j < arr.size() - 1; j++)
 					{
-						swap(arr[j], arr[j+1]); //ìˆœì„œê°€ ë°”ë€Œë©´ ì•ˆë˜ë¯€ë¡œ ë§¨ë’¤ë¡œ ë³´ë‚´ì„œ ì‚­ì œ
+						swap(arr[j], arr[j+1]); //¼ø¼­°¡ ¹Ù²î¸é ¾ÈµÇ¹Ç·Î ¸ÇµÚ·Î º¸³»¼­ »èÁ¦
 					}
-					arr.pop_back(); //ë§¨ë’¤ì˜ìë£Œì‚­ì œ
+					arr.pop_back(); //¸ÇµÚÀÇÀÚ·á»èÁ¦
 					break;
 				}
 				
@@ -147,7 +147,7 @@ int main()
 		{
 			for (int i = 0; i < arr.size(); i++)
 			{
-				display(arr[i]); //ë³´ì—¬ì§€ê¸°
+				display(arr[i]); //º¸¿©Áö±â
 			}
 		}
 		else if (select == 5)
@@ -155,23 +155,23 @@ int main()
 			cout << "------------------------------" << endl;
 			for (int i = 1; i <= arr.size(); i++) 
 			{
-				int ct = 1; //ë“±ìˆ˜ ì´ˆê¸°í™”
+				int ct = 1; //µî¼ö ÃÊ±âÈ­
 				for (int k = 0; k < arr.size(); k++) 
 				{
 					for (int j = 0; j < arr.size(); j++)
 					{
 						if (arr[j].total > arr[k].total)
-							ct++; //ë“±ìˆ˜ ê³„ì‚°
+							ct++; //µî¼ö °è»ê
 					}
 					if (ct == i)
-					{ //for i ë¬¸ì— í•´ë‹¹í•˜ëŠ” í•´ë‹¹ ë“±ìˆ˜ë©´ ì¶œë ¥ ë§Œì•½ 3ëª…ì´ì–´ë„ 2ë“±ê¹Œì§€ ì¶œë ¥í•´ì•¼í•˜ë¯€ë¡œ 2ëª…ë‹¤ ì¶œë ¥
-						cout << "ìˆœìœ„:" << i << "ë“± ì´ì :" << arr[k].total << " ì´ë¦„:" << arr[k].name << endl;
+					{ //for i ¹®¿¡ ÇØ´çÇÏ´Â ÇØ´ç µî¼ö¸é Ãâ·Â ¸¸¾à 3¸íÀÌ¾îµµ 2µî±îÁö Ãâ·ÂÇØ¾ßÇÏ¹Ç·Î 2¸í´Ù Ãâ·Â
+						cout << "¼øÀ§:" << i << "µî ÃÑÁ¡:" << arr[k].total << " ÀÌ¸§:" << arr[k].name << endl;
 					}
 					ct = 1;
 				}
 
 			}
-			cout << "ë‹¤ìŒí™”ë©´ìœ¼ë¡œ ê°€ë ¤ë©´ ì•„ë¬´í‚¤ë‚˜ ëˆ„ë¥´ì„¸ìš”!" << endl;
+			cout << "´ÙÀ½È­¸éÀ¸·Î °¡·Á¸é ¾Æ¹«Å°³ª ´©¸£¼¼¿ä!" << endl;
 			cout.clear();
 			getchar();
 			getchar();
