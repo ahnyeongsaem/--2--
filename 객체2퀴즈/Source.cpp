@@ -17,8 +17,20 @@ public:
 	string name;
 };
 //asdfasdf
-
+//asdfasdfasdfasdafsfsadf
 vector<Student> arr; //student 값전역배열
+
+///
+//
+
+///
+
+//
+//
+
+//
+//
+//
 
 
 bool getchart = true; //다음키를 누르세요 중복방지
