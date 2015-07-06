@@ -3,7 +3,7 @@
 #include<string>
 
 using namespace std;
-
+//dsfsdf
 //12111543 안영샘
 class Student
 { //클래스 스튜던트
