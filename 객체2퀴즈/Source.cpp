@@ -3,8 +3,13 @@
 #include<string>
 
 using namespace std;
+<<<<<<< HEAD
 //jkjkkjkijkrrrr
 //12111543 안영샘ㅇㅇ
+=======
+//dsfsdf
+//12111543 안영샘
+>>>>>>> parent of c34df7c... ㅇㅇ
 class Student
 { //클래스 스튜던트
 public:
@@ -17,8 +22,17 @@ public:
 	string name;
 };
 //asdfasdf
+<<<<<<< HEAD
 //asdfasdfasdfasdafsfsadf
+<<<<<<< HEAD
 vector<Student> arr; //student 값전역배열
+=======
+vector<Student> arr; //student �������迭
+=======
+
+vector<Student> arr; //student 값전역배열
+>>>>>>> origin/master
+>>>>>>> parent of c34df7c... ㅇㅇ
 
 ///
 //
@@ -179,7 +193,7 @@ int main()
 		}
 		else if (select == 0)
 		{
-			exit(1);
+			exit(1);///dfasdfasdfas
 		}
 	}
 
