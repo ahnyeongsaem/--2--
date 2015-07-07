@@ -189,8 +189,8 @@ int main()
 			cout.clear();
 			getchar();
 			getchar();
-			//ddsfdsfjkjkjknjhjh
-		}//ddddd
+			//ddsfdsfjkjkjknjhjhjkjk
+		}
 		else if (select == 0)
 		{
 			exit(1);///dfasdfasdfas
