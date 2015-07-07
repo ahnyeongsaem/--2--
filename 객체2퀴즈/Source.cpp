@@ -190,7 +190,7 @@ int main()
 			getchar();
 			getchar();
 			//ddsfdsfjkjkjknjhjh
-		}/ddddd
+		}//ddddd
 		else if (select == 0)
 		{
 			exit(1);///dfasdfasdfas
