@@ -27,7 +27,7 @@ public:
 <<<<<<< HEAD
 vector<Student> arr; //student ê°’ì „ì—­ë°°ì—´
 =======
-vector<Student> arr; //student °ªÀü¿ª¹è¿­
+vector<Student> arr; //student ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è¿­
 =======
 
 vector<Student> arr; //student ê°’ì „ì—­ë°°ì—´
